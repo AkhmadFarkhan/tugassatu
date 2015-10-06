@@ -29,17 +29,17 @@ public class NewJFrame extends javax.swing.JFrame {
 
         newJPanel11 = new newpackage.NewJPanel1();
         jTabbedPane1 = new javax.swing.JTabbedPane();
-        newJPanel12 = new newpackage.NewJPanel1();
-        newJPanel13 = new tugassatu.NewJPanel1();
-        newJPanel21 = new tugassatu.NewJPanel2();
-        newJPanel1 = new tugassatu.NewJPanel();
+        newJPanel2 = new tugassatu.NewJPanel();
+        newJPanel14 = new tugassatu.NewJPanel1();
+        newJPanel22 = new tugassatu.NewJPanel2();
+        newJPanel31 = new tugassatu.NewJPanel3();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane1.addTab("pertambahan", newJPanel12);
-        jTabbedPane1.addTab("perkalian", newJPanel13);
-        jTabbedPane1.addTab("pengurangan", newJPanel21);
-        jTabbedPane1.addTab("pembagian", newJPanel1);
+        jTabbedPane1.addTab("bagi", newJPanel2);
+        jTabbedPane1.addTab("kali", newJPanel14);
+        jTabbedPane1.addTab("kurang", newJPanel22);
+        jTabbedPane1.addTab("tambah", newJPanel31);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -97,10 +97,10 @@ public class NewJFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTabbedPane jTabbedPane1;
-    private tugassatu.NewJPanel newJPanel1;
     private newpackage.NewJPanel1 newJPanel11;
-    private newpackage.NewJPanel1 newJPanel12;
-    private tugassatu.NewJPanel1 newJPanel13;
-    private tugassatu.NewJPanel2 newJPanel21;
+    private tugassatu.NewJPanel1 newJPanel14;
+    private tugassatu.NewJPanel newJPanel2;
+    private tugassatu.NewJPanel2 newJPanel22;
+    private tugassatu.NewJPanel3 newJPanel31;
     // End of variables declaration//GEN-END:variables
 }

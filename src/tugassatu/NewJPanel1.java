@@ -89,7 +89,7 @@ public class NewJPanel1 extends javax.swing.JPanel {
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(154, Short.MAX_VALUE))
@@ -102,7 +102,7 @@ public class NewJPanel1 extends javax.swing.JPanel {
         satu= Integer.parseInt(jTextField1.getText());
         dua= Integer.parseInt(jTextField2.getText());
 
-        hasil=satu+dua;
+        hasil=satu*dua;
         jTextField3.setText(""+hasil);
     }//GEN-LAST:event_jButton2ActionPerformed
 

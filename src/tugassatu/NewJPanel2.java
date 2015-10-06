@@ -102,7 +102,7 @@ public class NewJPanel2 extends javax.swing.JPanel {
         satu= Integer.parseInt(jTextField1.getText());
         dua= Integer.parseInt(jTextField2.getText());
 
-        hasil=satu+dua;
+        hasil=satu-dua;
         jTextField3.setText(""+hasil);
     }//GEN-LAST:event_jButton2ActionPerformed
 

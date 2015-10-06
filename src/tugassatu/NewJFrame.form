@@ -48,38 +48,38 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Component class="newpackage.NewJPanel1" name="newJPanel12">
+        <Component class="tugassatu.NewJPanel" name="newJPanel2">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="pertambahan">
-                <Property name="tabTitle" type="java.lang.String" value="pertambahan"/>
+              <JTabbedPaneConstraints tabName="bagi">
+                <Property name="tabTitle" type="java.lang.String" value="bagi"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="tugassatu.NewJPanel1" name="newJPanel13">
+        <Component class="tugassatu.NewJPanel1" name="newJPanel14">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="perkalian">
-                <Property name="tabTitle" type="java.lang.String" value="perkalian"/>
+              <JTabbedPaneConstraints tabName="kali">
+                <Property name="tabTitle" type="java.lang.String" value="kali"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="tugassatu.NewJPanel2" name="newJPanel21">
+        <Component class="tugassatu.NewJPanel2" name="newJPanel22">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="pengurangan">
-                <Property name="tabTitle" type="java.lang.String" value="pengurangan"/>
+              <JTabbedPaneConstraints tabName="kurang">
+                <Property name="tabTitle" type="java.lang.String" value="kurang"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="tugassatu.NewJPanel" name="newJPanel1">
+        <Component class="tugassatu.NewJPanel3" name="newJPanel31">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="pembagian">
-                <Property name="tabTitle" type="java.lang.String" value="pembagian"/>
+              <JTabbedPaneConstraints tabName="tambah">
+                <Property name="tabTitle" type="java.lang.String" value="tambah"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
